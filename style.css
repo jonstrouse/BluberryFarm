@@ -1,0 +1,139 @@
+.title {
+  font-family: Yellowtail;
+  font-size: 60px;
+  text-align: center;
+}
+.tagline {
+  text-align: center;
+  font-weight: normal;
+  margin: .5em 0 1.5em;
+  font-size: 25px;
+  color: #244485;
+}
+.contact-form {
+  color: white;
+  text-align: center;
+  z-index: 99;
+  height: auto;
+  width: 400px;
+  position: absolute;
+  left: 45%;
+  margin-left: -200px;
+  margin-top: 50px;
+  border-radius: 2em;
+  background-color: slategrey;
+  padding: 3em;
+  display: block;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  width: 80%;
+  height: 1em;
+  padding: 1em;
+  margin: 2em auto;
+}
+textarea,
+button {
+  width: 80%;
+  font-size: 1.2em;
+  margin: 2em auto;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  background-color: orange;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  padding-top: 1.5em;
+  background-image: linear-gradient(white, lightblue);
+  font-family: Raleway, sans-serif;
+}
+main {
+  position: relative;
+}
+
+#b-berry {
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+
+.main {
+  display: block;
+  background-image: url('blueberry-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.fas {
+  font-size: 250%;
+  margin-bottom: .2em;
+
+}
+main h2 {
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+.content {
+  width: 80%;
+  margin: auto;
+}
+.details {
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-top: 1em;
+  line-height: 1.5em;
+
+}
+.info {
+  width: 180px;
+  height: 180px;
+  padding: 2em;
+  background-color: lightblue;
+  border-radius: 50%;
+  margin: 2em auto;
+  text-align: center;
+  box-shadow: 2px 2px 1px black;
+  transition: .2s ease;
+}
+
+.info:hover {
+  transform: scale(1.14);
+  color: #244485;
+}
+
+footer p {
+  margin-top: 1em;
+  text-align: center;
+}
+footer img {
+  display: block;
+  margin: 1em auto;
+  width: 80px;
+}

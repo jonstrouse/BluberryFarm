@@ -1,10 +1,13 @@
 const contact = document.querySelector('.contact');
 const contactForm = document.querySelector('.contact-form');
-
-contactForm.style.display = 'none';
+const exit = document.querySelector('.exit');
 
 contact.addEventListener('click', (event) => {
-  contactForm.style.display = 'initial';
-  console.log(event);
+  if ( event.target.tagName === 'BUTTON' ) {
+    contactForm.style.display = 'block';
+  }
+});
 
+exit.addEventListener('click', (event) => {
+  contactForm.style.display = 'none';
 });
